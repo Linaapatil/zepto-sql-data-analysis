@@ -63,6 +63,13 @@ Key business questions answered:
 
 ---
 
+## Dashboard Preview
+
+![Dashboard Preview](dash.png)
+
+
+---
+
 ## Key Insights
 
 * Most products remain in stock, with a smaller percentage currently unavailable.
