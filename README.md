@@ -1,10 +1,12 @@
-# Zepto Product Data Analysis using SQL
+# 🛒Zepto Product Data Analysis 
 
 ## Project Overview
 
-This project analyzes product data from Zepto using PostgreSQL. The goal is to explore product pricing, discounts, and stock availability to identify valuable products and category-level insights.
+This project analyzes product data from Zepto using SQL and Power BI to understand pricing, discounts, stock availability, and product value across categories.
 
-The analysis includes data exploration, cleaning, and SQL queries to extract meaningful insights from the dataset.
+The goal of this analysis is to identify high-discount products, revenue opportunities, and pricing patterns using structured queries and interactive visualizations.
+
+---
 
 ## Dataset Information
 
@@ -19,49 +21,74 @@ The dataset contains product-level information including:
 * Available Quantity
 * Stock Status
 
+---
+
 ## Tools Used
 
 * PostgreSQL
 * SQL
-* pgAdmin
+* pgAdmin 4
+* Power BI
 
-## Data Analysis Steps
+---
+
+## Project Workflow
 
 ### 1. Data Exploration
 
-Initial exploration was done to understand the dataset structure and check for:
+Initial SQL queries were used to explore the dataset:
 
-* Total number of records
-* Product categories
-* Stock availability
-* Duplicate product names
+* Count total records
+* Identify product categories
+* Check stock availability
+* Detect duplicate product entries
 
 ### 2. Data Cleaning
 
-Data cleaning included:
+Data cleaning steps included:
 
-* Removing products with invalid prices
-* Converting price values from paisa to rupees
-* Checking for null values
+* Removing invalid records where price was zero
+* Converting prices from paisa to rupees
+* Checking for null values across important columns
 
-### 3. Key Business Questions Answered
+### 3. Business Analysis
 
-The following analysis was performed using SQL:
+Key business questions answered:
 
-* Top 10 best value products based on discount percentage
-* Products with high MRP but currently out of stock
-* Estimated revenue by product category
-* Products with high price but low discount
-* Categories offering the highest average discount
-* Products offering the best price per gram
+* What are the top discounted products?
+* Which categories generate the highest estimated revenue?
+* What percentage of products are out of stock?
+* Which products offer the best price relative to weight?
+
+---
+
+### Key Metrics
+
+* Total Products: **3.73K**
+* Average Discount: **7.62%**
+
+### Visualizations Included
+
+* Product Stock Status
+* Revenue by Category
+* Top Discounted Products
+* Price vs Weight Analysis
+
+---
+
+## Dashboard Preview
+
+
+
+
+
+
+---
 
 ## Key Insights
 
-The analysis helps identify:
-
-* Categories offering the highest discounts
-* Products with strong pricing value
-* Potential revenue opportunities
-* Stock availability trends
-
+* Most products remain in stock, with a smaller percentage currently unavailable.
+* Certain categories generate significantly higher estimated revenue.
+* A few products offer substantially higher discounts compared to others.
+* Price-to-weight analysis helps identify better value products.
 
