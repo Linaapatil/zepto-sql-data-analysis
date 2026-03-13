@@ -60,28 +60,6 @@ Key business questions answered:
 * What percentage of products are out of stock?
 * Which products offer the best price relative to weight?
 
----
-
-### Key Metrics
-
-* Total Products: **3.73K**
-* Average Discount: **7.62%**
-
-### Visualizations Included
-
-* Product Stock Status
-* Revenue by Category
-* Top Discounted Products
-* Price vs Weight Analysis
-
----
-
-## Dashboard Preview
-
-
-
-
-
 
 ---
 
